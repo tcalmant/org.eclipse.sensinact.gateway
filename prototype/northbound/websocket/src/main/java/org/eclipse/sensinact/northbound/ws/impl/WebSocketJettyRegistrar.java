@@ -40,7 +40,7 @@ import jakarta.servlet.ServletResponse;
 
 @Component(service = { Servlet.class, JettyWebSocketServlet.class })
 @RequireHttpWhiteboard
-@HttpWhiteboardServletPattern("/ws")
+@HttpWhiteboardServletPattern("/ws/sensinact")
 @HttpWhiteboardServletAsyncSupported
 public class WebSocketJettyRegistrar extends JettyWebSocketServlet {
 
