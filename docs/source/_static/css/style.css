@@ -1,0 +1,10 @@
+.code-block-caption {
+    border-bottom: 2px solid #587f9f;
+    color: black;
+    background-color: #eee;
+    padding: .5em 1em;
+}
+
+.highlight {
+    margin-top: 0 !important;
+}

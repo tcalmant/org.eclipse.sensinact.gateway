@@ -54,7 +54,9 @@ We can also configure these features to control the port used, and to enable ano
 
 The updated configuration will look something like this:
 
-```json
+```{code-block} json
+:caption: sensinact/configuration/configuration.json
+
 {
     ":configurator:resource-version": 1,
     ":configurator:symbolic-name": "org.eclipse.sensinact.gateway.configuration",
